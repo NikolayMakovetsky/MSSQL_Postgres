@@ -1,0 +1,19 @@
+==>Database: "NorthWind"
+==>Schema: "northwind"
+==> Initial setup
+==> set: encoding
+SET
+==> set: create_schema
+psql:INIT/create_schema.sql:1: NOTICE:  drop cascades to table northwind."Employees"
+DROP SCHEMA
+CREATE SCHEMA
+==> set: search_path
+SET
+==> Create tables
+==> cre: Employees
+CREATE TABLE
+CREATE INDEX
+CREATE INDEX
+==> cre: Categories
+CREATE TABLE
+CREATE INDEX

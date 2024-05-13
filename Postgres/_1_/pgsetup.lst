@@ -1,0 +1,7 @@
+\set pDbSchemaName erafin
+
+\echo '==>Database: "':DBNAME'"'  
+\echo '==>Schema: "':pDbSchemaName'"'  
+
+\echo '==> Load Test Data'
+\ir ./DATA/install.lst

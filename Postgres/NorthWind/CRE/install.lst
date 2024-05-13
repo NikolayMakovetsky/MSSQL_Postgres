@@ -1,0 +1,2 @@
+\echo '==> cre: Employees'      \ir ./Employees.sql
+\echo '==> cre: Categories'     \ir ./Categories.sql

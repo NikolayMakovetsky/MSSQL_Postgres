@@ -1,0 +1,10 @@
+\set pDbSchemaName northwind
+
+\echo '==>Database: "':DBNAME'"'  
+\echo '==>Schema: "':pDbSchemaName'"'  
+
+\echo '==> Initial setup'
+\ir ./INIT/install.lst
+
+\echo '==> Create tables'
+\ir ./CRE/install.lst

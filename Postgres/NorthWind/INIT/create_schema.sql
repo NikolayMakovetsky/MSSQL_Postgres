@@ -1,0 +1,2 @@
+﻿DROP SCHEMA IF EXISTS northwind CASCADE;
+CREATE SCHEMA northwind;

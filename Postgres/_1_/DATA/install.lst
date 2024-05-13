@@ -1,0 +1,14 @@
+\echo '==> set: encoding'      \ir ./client_encoding.sql
+\echo '==> table: colang'      \ir ./colang.sql
+\echo '==> table: smlocale'    \ir ./smlocale.sql
+\echo '==> table: mccurr'      \ir ./mccurr.sql
+\echo '==> table: mcrtype'     \ir ./mcrtype.sql
+\echo '==> table: smcompmain'  \ir ./smcompmain.sql
+\echo '==> table: smcomp'      \ir ./smcomp.sql
+\echo '==> table: smuser'      \ir ./smuser_init_pg.sql
+\echo '==> table: mccurate'    \ir ./mccurate.sql
+\echo '==> table: mccurtdt'    \ir ./mccurtdt_pg.sql
+\echo '==> table: glchart'     \ir ./glchart_init.sql
+\echo '==> table: glseg1'      \ir ./glseg1_i2.sql
+\echo '==> table: glseg2'      \ir ./glseg2_i2.sql
+\echo '==> table: glseg3'      \ir ./glseg3_i2.sql
